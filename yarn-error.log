@@ -1,0 +1,92 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add @chakra-ui/react @emotion/react @emotion/styled @framer-motion @usedapp/core
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.17.6
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@framer-motion: Request "https://registry.yarnpkg.com/@framer-motion" returned a 405
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66149:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140885:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141857:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141779:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "lab-ico",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@chakra-ui/icons": "^1.0.14",
+      "@chakra-ui/react": "^1.6.5",
+      "@emotion/react": "^11.4.0",
+      "@emotion/styled": "^11.3.0",
+      "@fontsource/inter": "^4.5.0",
+      "@metamask/jazzicon": "^2.0.0",
+      "@testing-library/jest-dom": "^5.14.1",
+      "@testing-library/react": "^11.2.7",
+      "@testing-library/user-event": "^12.8.3",
+      "@types/jest": "^26.0.24",
+      "@types/node": "^12.20.28",
+      "@types/react": "^17.0.27",
+      "@types/react-dom": "^17.0.9",
+      "@usedapp/core": "^0.4.1",
+      "ethers": "^5.4.0",
+      "framer-motion": "^4.1.17",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-scripts": "4.0.3",
+      "typescript": "^4.4.3",
+      "web-vitals": "^1.1.2",
+      "yarn": "^1.22.15"
+    },
+    "resolutions": {
+      "@ethersproject/abi": "5.2.0",
+      "@ethersproject/contracts": "5.2.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
